@@ -1,17 +1,14 @@
 {
-  "name": "lyrics-searcher",
-  "version": "1.0.0",
-  "description": "",
-  "main": "",
-  "scripts": {
-    "lint": "eslint ./src",
-    "build": "tsc",
-    "start": "node ./dist/cli.js"
-  },
-  "keywords": [],
   "author": "Mourão",
-  "license": "MIT",
-  "type": "module",
+  "bugs": {
+    "url": "https://github.com/MouraoDev22/lyrics-searcher/issues"
+  },
+  "dependencies": {
+    "awt-prompt": "^1.0.4",
+    "axios": "^1.16.1",
+    "chalk": "^5.6.2"
+  },
+  "description": "",
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "eslint": "^10.4.0",
@@ -21,9 +18,20 @@
     "typescript": "^6.0.3",
     "typescript-eslint": "^8.60.0"
   },
-  "dependencies": {
-    "axios": "^1.16.1",
-    "chalk": "^5.6.2",
-    "awt-prompt": "^1.0.4"
-  }
+  "homepage": "https://github.com/MouraoDev22/lyrics-searcher#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "./dist/cli.js",
+  "name": "lyrics-searcher",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MouraoDev22/lyrics-searcher.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint ./src",
+    "start": "node ./dist/cli.js"
+  },
+  "type": "module",
+  "version": "1.0.0"
 }

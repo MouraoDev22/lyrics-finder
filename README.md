@@ -1,4 +1,4 @@
-# Lyrics Searcher
+# Lyrics Finder
 
 A simple and efficient command-line lyrics searcher developed with Node.js and TypeScript consuming lyrics.ovh API.
 

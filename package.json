@@ -27,7 +27,7 @@
   "keywords": [],
   "license": "MIT",
   "main": "./dist/cli.js",
-  "name": "lyrics-searcher",
+  "name": "lyrics-finder",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MouraoDev22/lyrics-searcher.git"
